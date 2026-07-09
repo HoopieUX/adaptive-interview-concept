@@ -8,7 +8,9 @@ judgment traits that are hard to teach and hard to score from a CV.
 - [Overview](#overview)
 - [Problem](#problem)
 - [Solution](#solution)
+- [Tailored to a specific organisation](#tailored-to-a-specific-organisation)
 - [Walkthrough](#walkthrough)
+- [Example candidate reports](EXAMPLES.md)
 - [Limitations and what's next](#limitations-and-whats-next)
 - [Related](#related)
 - [Built with](#built-with)
@@ -69,6 +71,30 @@ is testing whether it transfers to a situation the candidate hasn't already prep
 own guide to structured interviewing names this directly). Both are built into the chat itself and
 into the follow-up questions it generates.
 
+## Tailored to a specific organisation
+
+The four traits above are universal — the same for any AI safety role, at any org. But the chat
+can also be tailored to one specific organisation's own stated culture, blended into the same list
+rather than kept separate.
+
+Apollo Research publishes its own culture explicitly: *"we aim for a culture that emphasizes
+truth-seeking, being goal-oriented, giving and receiving constructive feedback, and being friendly
+and helpful."* Those four became four more traits, written with the same rigour as the original
+four (a 1/3/5 anchor scale, a probe question, quoted evidence required), and blended straight into
+the same chat and the same report — the candidate isn't told which questions are "universal" and
+which are "Apollo-specific," and neither is the scorer. One example candidate, Taylor, demonstrates
+the full eight-trait version end to end:
+
+![Apollo-tailored report, showing universal and organisation-specific traits blended together](screenshots/apollo-tailored.png)
+
+Universal traits (Adversarial Grit, Epistemic Rigour, Conceptual Engineering) and Apollo-specific
+ones (Truth-Seeking, Feedback Culture) sitting in the same highlights list — not two separate
+sections — is the point: the assessment reads as one coherent read on the candidate, tailored to
+this org, not a generic layer with a company-specific add-on bolted beside it.
+
+See [EXAMPLES.md](EXAMPLES.md) for Taylor's full report in text, alongside the four other example
+candidates.
+
 ## Walkthrough
 
 **Candidate flow:**
@@ -105,7 +131,10 @@ This is a proof of concept, not a validated tool, and I want to be upfront about
 - No real interviews or hires have been run through it yet.
 - There's no calibration mode yet for checking whether two interviewers using the same Interview
   Guide would actually agree.
-- It only covers the four cross-role traits, not the role-specific side of the original rubric.
+- It covers judgment traits — universal and organisation-specific — not the role-specific hard
+  skills side of the original rubric.
+- The organisation-specific traits are currently hardcoded for Apollo Research, not a general
+  configurable-per-company system.
 
 ## Related
 

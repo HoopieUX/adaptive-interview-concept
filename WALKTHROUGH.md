@@ -23,10 +23,10 @@ naturally, by typing or dictating with the mic button; half-formed thoughts are 
 
 ![Example conversations](screenshots/example-chat.png)
 
-A read-only way to see the mechanism without having a conversation yourself — pick between four
+A read-only way to see the mechanism without having a conversation yourself — pick between five
 candidates and watch how the questions actually diverged based on what each one said.
 
-- **Real conversations, not mockups** — two of these four were actually run through the live chat
+- **Real conversations, not mockups** — four of these five were actually run through the live chat
   and scoring endpoints, not written by hand.
 - **Makes the adaptiveness visible** — same opening question, genuinely different follow-ups,
   because the bot is reading what was actually said rather than working through a fixed script.
@@ -35,7 +35,7 @@ candidates and watch how the questions actually diverged based on what each one 
 
 ![Example candidates list](screenshots/reports-list.png)
 
-Four example candidates, sorted by Cultural Fit %, each shown as a card: avatar, a one-line
+Five example candidates, sorted by Cultural Fit %, each shown as a card: avatar, a one-line
 summary, a coloured pill per trait, and a "X strong / Y flagged" count.
 
 - **Cultural Fit % is its own number** — not blended with anything else, so it stays visible
@@ -58,3 +58,14 @@ candidate.
 - **Suggested follow-ups test whether the trait transfers** to a new situation, rather than just
   re-asking the same thing a different way — the technique for telling real capability apart from
   a rehearsed answer.
+
+![Apollo-tailored report](screenshots/apollo-tailored.png)
+
+One candidate, Taylor, shows the assessment tailored to a specific organisation: Apollo Research's
+own stated values (Truth-Seeking, Feedback Culture, and two more not pictured here) blended
+straight into the same highlights list as the four universal traits — not a separate section.
+
+- **Blended, not bolted on** — universal and organisation-specific traits sit in the same list,
+  scored the same way, so the report reads as one coherent view of the candidate.
+- **Grounded in the org's own words** — the four Apollo traits come directly from Apollo Research's
+  own published culture statement, not a generic template.
